@@ -8,7 +8,7 @@ NoSQL DBs store all values of a column together. This makes it easier to search 
 when you run search on a single column, you only need to load that column's values into
 memory, not whole of the table.
 
-## Cassandra is an AP system
+## Cassandra can be an AP system or a CP system
 Reference: https://www.datastax.com/blog/2019/05/how-apache-cassandratm-balances-consistency-availability-and-performance
 Cassandra has made consistency tunable to offer availability.
 When you read (or even write), you can specify ONE, TWO, THREE, QUORUM or ALL to indicate how many replicas should respond before sending an answer.
